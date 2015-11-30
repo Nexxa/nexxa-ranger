@@ -1,6 +1,6 @@
 {
   "name": "nexxa-ranger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple range creator",
   "main": "indexES5.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "babel": "babel index.js -o indexES5.js",
     "postinstall": "npm run babel",
     "pretest": "npm run lint && npm run babel",
-    "test": "tape ./test/*.js | tap-spec"
+    "test": "tape ./test/*.js | tap-spec",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
