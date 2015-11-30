@@ -6,7 +6,7 @@ Simple ranger creator.
 
 **`ranger(start, stop [,step])`**
 
-Creates an array with numeric values from start to stop through step (default 1).
+Creates an array with numeric values from **start (inclusive)** to **stop (exclusive)** through **step (default 1)**.
 
 ## Use
 
