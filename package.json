@@ -1,6 +1,6 @@
 {
   "name": "nexxa-ranger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple range creator",
   "main": "indexES5.js",
   "scripts": {
